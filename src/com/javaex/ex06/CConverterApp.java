@@ -9,13 +9,19 @@ public class CConverterApp {
         double won;
         
         CConverter.setRate(1118.70);
+      
         
         //100만원을 달러로 출력하기
-
+        
+        CConverter con1 = new CConverter();
+        
+        System.out.println("백만원은 " + con1.toDollar(1000000) + "달러입니다.");
         
         //100달려를 원으로 출력하기
         
+        CConverter con2 = new CConverter();
         
+        System.out.println("백달러는 " + con2.toKWR(100) + "입니다.");
     }
 
 }

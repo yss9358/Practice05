@@ -29,7 +29,7 @@ public class Base {
 	
 	// 메소드 - 일반
 	
-	/*
+	
 	
     public void service(String state) {
     	switch( state ) { 
@@ -50,9 +50,9 @@ public class Base {
         //코드작성할것
     }
     
-    */
+   
 	
-	public void service(String state) {
+	public void service() {
 		
 	}
 
@@ -61,6 +61,7 @@ public class Base {
     }
 
     public void night() {
+    	
         System.out.println("밤에는 숙면");
     	//코드작성할것
     }
