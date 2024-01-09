@@ -17,8 +17,6 @@ public class MemberApp {
 		member01.showinfo();
 		member02.showinfo();
 		member03.showinfo();
-		
-		
 
 		
 	}
