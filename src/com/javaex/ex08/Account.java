@@ -4,7 +4,6 @@ public class Account {
 
 	// 필드
 	
-    public static int sum;
 	private String accountNo;
 	private int balance;
 
@@ -45,7 +44,7 @@ public class Account {
 	}
 	
 	public int deposit (int balance){
-		return sum = sum + balance;
+		return this.balance + balance;
 	}
 	
 	public int withdraw (int balance) {
@@ -53,7 +52,7 @@ public class Account {
 	}
 	
 	public void showBalance() {
-		System.out.println();
+		System.out.println("잔고액");
 	}
 
 }
