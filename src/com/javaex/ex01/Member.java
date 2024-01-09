@@ -53,6 +53,6 @@ public class Member {
 	}
 	
 	public void showinfo() {
-		System.out.println("회원정보: " + name + "(" + id + ")" + "," + point + "점"); 
+		System.out.println("회원정보: " + name + "(" + id + ")" + ", " + point + "점"); 
 	}
 }
