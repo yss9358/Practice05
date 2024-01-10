@@ -51,11 +51,26 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+	
+	public int getStateCode() {
+		return stateCode;
+	}
+	
+	public void setStateCode(int stateCode) {
+		this.stateCode = stateCode;
+	}
 
 	// 메소드 - 일반
 	
-	public void displayBookInfo() {
+	/*public void displayBookInfo() {
 		System.out.println(bookNo + " 책 제목:" + title + ", 작가:" + author + ", 대여 유무:" + stateCode );
+	}*/
+	
+	public static void displayBookInfo(String books) {
+		list = "";
+		System.out.println(books);
+		return 
+		
 	}
 	
 
